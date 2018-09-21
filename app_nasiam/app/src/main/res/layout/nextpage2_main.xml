@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:useDefaultMargins="true"
+    android:alignmentMode="alignBounds"
+    android:columnOrderPreserved="false"
+
+    android:columnCount="4"
+    >
+
+
+    <TextView
+        android:text="ผู้ให้ข้อมูล  : "
+        android:layout_column="0"
+        android:layout_gravity="right"
+
+        />
+
+    <EditText
+        android:ems="8"
+        android:maxLength="30"
+        android:id="@+id/diagnosis"
+        android:inputType="text"
+        />
+
+
+
+    <!--
+
+    <Button
+        android:layout_column="1"
+        android:id="@+id/btn_save"
+        />
+        -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</GridLayout>

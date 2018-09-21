@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:useDefaultMargins="true"
+    android:alignmentMode="alignBounds"
+    android:columnOrderPreserved="false"
+
+    android:columnCount="4"
+    >
+
+    <TextView
+        android:text="เข้าสู่ระบบ"
+        android:textSize="32dip"
+
+        android:layout_columnSpan="4"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:text="@string/text_login"
+        android:textSize="16dip"
+
+        android:layout_columnSpan="4"
+        android:layout_gravity="left"
+        />
+
+    <TextView
+        android:text="User :"
+
+        android:layout_gravity="right"
+        />
+
+    <EditText
+        android:ems="10"
+        android:maxLength="10"
+        android:id="@+id/txtUsername"
+
+        />
+
+    <TextView
+        android:text="Password :"
+
+        android:layout_column="0"
+        android:layout_gravity="right"
+
+
+        />
+
+    <EditText
+        android:ems="10"
+        android:id="@+id/txtPassword"
+        android:maxLength="10"
+
+        android:inputType="textPassword"
+        />
+
+
+
+    <Space
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_columnSpan="3"
+        android:layout_gravity="fill"
+        />
+
+
+
+
+    <Button
+        android:text="  เข้าสู่ระบบ  "
+
+        android:layout_row="4"
+        android:layout_columnSpan="2"
+        android:layout_column="1"
+        android:id="@+id/btnLogin"
+        />
+
+
+
+
+
+
+</GridLayout>

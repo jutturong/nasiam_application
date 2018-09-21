@@ -1,0 +1,56 @@
+<resources>
+    <!--<string name="app_name">TAWANCHAI Cleft</string>-->
+    <string name="app_name">ณ สยาม</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="selectdate">test</string>
+
+
+    <string name="date_label_set"></string>
+
+    <string name="date_view_set"></string>
+    <string name="date_selected"></string>
+    <string name="logout">ออกจากระบบ</string>
+
+    <string name="next">Next Page >></string>
+    <string name="back">Back Page </string>
+
+    <string name="label_spinner">ภาวะโรคร่วม</string>
+    <string name="label_detail_diagnosis">ระบุภาวะโรคร่วม อื่นๆ</string>
+
+    <string name="label_informative_name">ชื่อผู้ให้ข้อมูล : </string>
+    <string name="label_informative_lastname">นามสกุลผู้ให้ข้อมูล : </string>
+    <string name="label_informative_tel">เบอร์โทรศัพท์ผู้ให้ข้อมูล : </string>
+
+    <string name="label_address">ที่อยู่ปัจจุบัน(ตามทะเบียนบ้าน) : </string>
+    <string name="label_autoCompleteTextView1">จังหวัดเกิด : </string>
+
+    <string name="label_head">ศูนย์ตะวันฉาย คณะแพทยศาสตร์ มข.</string>
+
+<!--
+    <string name="label_head">I-SanRISC:App</string>
+    -->
+
+    <string name="label_name">ชื่อผู้ป่วย : </string>
+    <string name="label_lastname">นามสกุลผู้ป่วย : </string>
+    <string name="label_id_card">เลขบัตรประชาชน : </string>
+    <string name="label_telephone">เบอร์โทร : </string>
+    <string name="label_id_sex">เพศ : </string>
+    <string name="label_id_sex1">ชาย</string>
+    <string name="label_id_sex2">หญิง</string>
+    <string name="label_birthdate">วัน-เดือน-ปี เกิด : </string>
+    <string name="insert">บันทึกข้อมูล</string>
+    <string name="date_button_set">เลือกวัน</string>
+
+    <string name="text_login">ศูนย์ตะวันฉาย คณะแพทยศาสตร์ มข.</string>
+
+
+    <string-array name="planets_array">
+        <item>ชาย</item>
+        <item>หญิง</item>
+
+    </string-array>
+
+</resources>

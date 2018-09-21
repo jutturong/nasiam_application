@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+    <TabWidget
+        android:id="@android:id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </TabWidget>
+
+    <FrameLayout
+        android:id="@android:id/tabcontent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+
+
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/tab1"
+    android:useDefaultMargins="true"
+    android:alignmentMode="alignBounds"
+    android:columnOrderPreserved="false"
+
+    android:columnCount="4"
+    >
+
+
+    <TextView
+        android:text="@string/label_head"
+        android:textSize="20dip"
+        android:layout_columnSpan="4"
+        android:layout_gravity="center"
+
+        />
+
+
+    <TextView
+        android:text="@string/label_name"
+        android:layout_column="0"
+        android:layout_gravity="right"
+
+        />
+
+    <EditText
+        android:ems="5"
+        android:maxLength="10"
+        android:id="@+id/name"
+        android:inputType="text"
+
+        />
+
+    <TextView
+        android:text="@string/label_lastname"
+        android:layout_column="0"
+        android:layout_gravity="right"
+
+        />
+
+    <EditText
+        android:ems="5"
+        android:maxLength="15"
+        android:id="@+id/lastname"
+        android:inputType="text"
+        />
+
+
+
+    <TextView
+        android:text="@string/label_id_card"
+
+        android:layout_column="0"
+        android:layout_gravity="right"
+        />
+
+    <EditText
+        android:ems="7"
+        android:maxLength="13"
+        android:inputType="number"
+        android:id="@+id/id_card"
+        />
+
+
+
+    <TextView
+        android:text="@string/label_telephone"
+        android:layout_column="0"
+        android:layout_gravity="right"
+
+        />
+
+    <EditText
+        android:ems="6"
+        android:maxLength="10"
+        android:inputType="phone"
+        android:id="@+id/telephone"
+        />
+
+
+
+    <TextView
+        android:text="@string/label_id_sex"
+        android:layout_column="0"
+        android:layout_gravity="right"
+        />
+
+
+    <!--
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:id="@+id/id_sex"
+
+        >
+
+        <RadioButton
+            android:id="@+id/id_sex1"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+
+            android:text="@string/label_id_sex1"
+            />
+        <RadioButton
+            android:id="@+id/id_sex2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_id_sex2"
+
+            />
+
+    </RadioGroup>
+    -->
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/planets_array"
+      />
+
+
+
+    <TextView
+        android:text="@string/label_birthdate"
+        android:layout_column="0"
+        android:layout_gravity="right"
+        />
+
+
+
+    <TextView
+        android:id="@+id/birthdate"
+        android:layout_column="1"
+        android:layout_columnSpan="2"
+
+
+        android:layout_alignRight="@+id/button1"
+        android:layout_below="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+<!--
+    <Button
+        android:id="@+id/button1"
+        android:onClick="setDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/date_button_set"
+
+        />
+-->
+
+
+
+    <ImageButton
+        android:id="@+id/img1"
+        android:onClick="setDate"
+        android:src="@drawable/calendar" />
+
+
+
+<!--
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_alignParentTop="true"
+  android:layout_centerHorizontal="true"
+   android:layout_marginTop="110dp"
+-->
+
+
+    <TextView
+        android:text="@string/label_address"
+        android:layout_column="0"
+        android:layout_gravity="right"
+        />
+
+
+    <EditText
+        android:ems="8"
+        android:maxLength="50"
+        android:inputType="textImeMultiLine"
+        android:minLines="2"
+        android:id="@+id/address"
+        android:scrollbars="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <TextView
+        android:text="@string/label_autoCompleteTextView1"
+        android:layout_column="0"
+        android:layout_gravity="right"
+        />
+
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/planets_array"
+        />
+
+    <!--
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:ems="8"
+        android:maxLength="15"
+        android:completionThreshold="1"
+        android:text="" >
+        <requestFocus />
+    </AutoCompleteTextView>
+     -->
+
+
+
+
+
+
+<!--
+    <Spinner
+        android:id="@+id/province_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        -->
+
+
+<!--
+    <Button
+        android:layout_row="10"
+        android:layout_column="1"
+        android:layout_columnSpan="2"
+        />
+        -->
+
+
+    <TextView
+        android:text="   "
+        android:layout_column="1"
+        android:layout_gravity="left"
+        android:layout_row="10"
+        android:layout_columnSpan="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+
+
+</GridLayout>
+
+    <!--
+    <LinearLayout
+        android:id="@+id/tab2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data Tab2" />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data Tab2" />
+
+
+
+    </LinearLayout>
+    -->
+
+        <!-- PAGE2 -->
+
+        <GridLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tab2"
+            android:useDefaultMargins="true"
+            android:alignmentMode="alignBounds"
+            android:columnOrderPreserved="false"
+
+            android:columnCount="4"
+            >
+
+            <!--
+            <TextView
+                android:text="มูลนิธิตะวันฉาย  มหาวิทยาลัยขอนแก่น"
+                android:textSize="20dip"
+                android:layout_columnSpan="4"
+                android:layout_gravity="center"
+
+                />
+                 -->
+
+
+            <TextView
+                android:text="@string/label_spinner"
+                android:layout_column="0"
+                android:layout_gravity="right"
+
+                />
+
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="26dp" />
+
+            <TextView
+                android:text="@string/label_detail_diagnosis"
+                android:layout_column="0"
+                android:layout_gravity="right"
+
+                />
+
+            <EditText
+                android:ems="8"
+                android:maxLength="50"
+                android:inputType="text"
+                android:minLines="2"
+                android:id="@+id/detail_diagnosis"
+                android:scrollbars="vertical"
+                />
+
+            <TextView
+                android:text="@string/label_informative_name"
+                android:layout_column="0"
+                android:layout_gravity="right"
+
+                />
+
+            <EditText
+                android:ems="5"
+                android:maxLength="15"
+                android:id="@+id/informative_name"
+                android:inputType="text"
+                />
+
+            <TextView
+                android:text="@string/label_informative_lastname"
+                android:layout_column="0"
+                android:layout_gravity="right"
+
+                />
+
+            <EditText
+                android:ems="7"
+                android:maxLength="15"
+                android:id="@+id/informative_lastname"
+                android:inputType="text"
+                />
+
+
+            <TextView
+                android:text="@string/label_informative_tel"
+                android:layout_column="0"
+                android:layout_gravity="right"
+
+                />
+
+
+            <EditText
+                android:ems="6"
+                android:maxLength="10"
+                  android:id="@+id/informative_tel"
+                android:inputType="phone"
+                />
+
+
+            <Button
+                android:layout_row="5"
+                android:text="@string/insert"
+                android:id="@+id/btn_save"
+                android:layout_column="1"
+
+                />
+
+
+
+
+        </GridLayout>
+
+      <!--
+    <LinearLayout
+        android:id="@+id/tab3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data Tab3" />
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data Tab3" />
+    </LinearLayout>
+       -->
+
+    </FrameLayout>
+    </LinearLayout>
+
+
+</TabHost>
+
+
+
+
