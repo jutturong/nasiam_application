@@ -6,6 +6,7 @@ import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.app.TabActivity;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.StrictMode;
@@ -193,6 +194,8 @@ public  String urlinsert=  ip_main_system  + "index.php/welcome/insertPatient2";
 
         setContentView(R.layout.activity_main);  //Main program OK
        // setContentView(R.layout.loginpage);
+        this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT); //fix ด้านตั้ง
+
 
         intent=getIntent();
        // Id_per=intent.getStringExtra("Id_per");

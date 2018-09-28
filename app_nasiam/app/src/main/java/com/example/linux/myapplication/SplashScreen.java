@@ -69,8 +69,11 @@ public class SplashScreen extends Activity {
 
    // final AlertDialog.Builder ad = new AlertDialog.Builder(this);
 
-    ImageView imgwelcome;
+    ImageView imgwelcome; //หน้าต้อนรับ
 
+    ImageView imglistprice;  //รายการพระเครื่อง
+
+    ImageView imgsearch; //รายการค้นหาพระเครื่อง
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -129,11 +132,44 @@ setContentView(R.layout.layoutmainsystem);
 */
 
 
-        imgwelcome=(ImageView)findViewById(R.id.imgwelcome);
+
+        imgwelcome=(ImageView)findViewById(R.id.imgwelcome);//หน้าต้อนรับ
+       /*
         imgwelcome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                
+
+                Intent i = new Intent(SplashScreen.this, Welcom1.class);
+                startActivity(i);
+                finish();
+
+            }
+        });
+       */
+
+
+        imglistprice=(ImageView)findViewById(R.id.imglistprice);//รายการพระเครื่อง
+
+        imglistprice.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(SplashScreen.this, Welcom1.class);
+                startActivity(i);
+                finish();
+
+            }
+        });
+
+
+        //ค้นหาพระเครื่อง
+        imgsearch=(ImageView)findViewById(R.id.imgsearch);
+        imgsearch.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(SplashScreen.this, Searchlist.class);
+                startActivity(i);
+                finish();
+
             }
         });
 

@@ -34,7 +34,7 @@
 
     <!--รายการพระเครื่อง -->
     <ImageView
-android:id="@+id/imglistprice"
+
         android:layout_width="match_parent"
         android:layout_height="37dp"
         android:layout_x="40dp"
@@ -44,7 +44,7 @@ android:id="@+id/imglistprice"
 
     <!-- ค้นหา -->
     <ImageView
-android:id="@+id/imgsearch"
+
         android:layout_width="match_parent"
         android:layout_height="35dp"
         android:layout_x="50dp"

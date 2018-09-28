@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+
+
+    <!-- background -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/backgrond2"
+        />
+
+
+
+
+
+<!-- banner  ณสยาม -->
+    <!--
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_x="110dp"
+        android:layout_y="-200dp"
+        android:src="@drawable/banner1"
+        />
+        -->
+    <!-- banner  ณสยาม -->
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ชื่อพระเครื่อง"
+        android:textSize="50dp"
+        android:layout_x="130dp"
+        android:layout_y="60dp"
+        android:textColor="#FFFF00"
+        android:fontFamily="@font/fc_lamoon_bold"
+
+        />
+
+<!--
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_x="90dp"
+        android:layout_y="-200dp"
+        android:src="@drawable/framlayout2"
+        />
+-->
+
+
+    <!--
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_x="40dp"
+        android:layout_y="189dp"
+        >
+
+
+
+    <GridLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:useDefaultMargins="true"
+        android:alignmentMode="alignBounds"
+        android:columnOrderPreserved="false"
+
+        android:columnCount="4"
+
+        >
+
+    <EditText
+        android:id="@+id/edituser"
+        android:ems="8"
+        android:layout_columnSpan="3"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:inputType="text"
+        android:fontFamily="@font/fc_lamoon_bold"
+
+        />
+
+
+
+
+    </GridLayout>
+    </FrameLayout>
+    -->
+
+    <!-- logo หลวงปู่ฟั่น -->
+    <!--
+    <ImageView
+
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_x="10dp"
+        android:layout_y="60dp"
+        android:src="@drawable/prawelcome4"
+        />
+-->
+
+    <!--  ปุ่มจุดๆ หน้าถัดไป -->
+    <!--
+    <ImageView
+
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:layout_x="150dp"
+        android:layout_y="270dp"
+        android:src="@drawable/listebutton"
+        />
+   -->
+
+<!--
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" ตะกรุดหลวงปู่รอด วัดนายโรง "
+        android:textSize="36dp"
+        android:layout_x="35dp"
+        android:layout_y="460dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/fc_lamoon_bold"
+
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ตะกรุดหลวงปู่รอด วัดนายโรง เนื้อชิน"
+        android:textSize="30dp"
+        android:layout_x="30dp"
+        android:layout_y="500dp"
+        android:textColor="#FFFF00"
+        android:fontFamily="@font/fc_lamoon_bold"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ยาว 1 นิ้ว 1 หุน บรรยายด้วยภาพ"
+        android:textSize="30dp"
+        android:layout_x="30dp"
+        android:layout_y="530dp"
+        android:textColor="#FFFF00"
+        android:fontFamily="@font/fc_lamoon_bold"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="หายากแล้วคะ"
+        android:textSize="30dp"
+        android:layout_x="30dp"
+        android:layout_y="560dp"
+        android:textColor="#FFFF00"
+        android:fontFamily="@font/fc_lamoon_bold"
+
+        />
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="วัดเขาแดงตะวันตก พัทลุง"
+            android:textSize="30dp"
+            android:layout_x="90dp"
+            android:layout_y="460dp"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/fc_lamoon_bold"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="เป็นพระขุนแผน + พระปิดตาหินส้ม"
+            android:textSize="30dp"
+            android:layout_x="50dp"
+            android:layout_y="490dp"
+            android:textColor="#FFFF00"
+            android:fontFamily="@font/fc_lamoon_bold"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ซึ่งปัจจุบันนี้หายากแล้ว"
+            android:textSize="30dp"
+            android:layout_x="100dp"
+            android:layout_y="520dp"
+            android:textColor="#FFFF00"
+            android:fontFamily="@font/fc_lamoon_bold"
+
+            />
+    -->
+
+
+
+
+
+
+
+    <!-- ปุ่มย้อนกลับ -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/txtback"
+        android:text="ย้อนกลับ"
+        android:textSize="35dp"
+        android:layout_x="30dp"
+        android:layout_y="640dp"
+        android:textColor="#000000"
+        android:fontFamily="@font/fc_lamoon_bold"
+
+        />
+
+<!-- หน้าหลัก -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/txthome"
+        android:text="หน้าหลัก"
+        android:textSize="35dp"
+        android:layout_x="160dp"
+        android:layout_y="640dp"
+        android:textColor="#000000"
+        android:fontFamily="@font/fc_lamoon_bold"
+
+        />
+
+
+<!-- ปุ่มถัดไป -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/txtforword"
+        android:text="หน้าถัดไป"
+        android:textSize="35dp"
+        android:layout_x="280dp"
+        android:layout_y="640dp"
+        android:textColor="#000000"
+        android:fontFamily="@font/fc_lamoon_bold"
+
+        />
+
+
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+</AbsoluteLayout>

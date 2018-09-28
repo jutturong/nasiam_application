@@ -12,35 +12,27 @@
         />
 
 
-    <!--ณ สยาม -->
+
+
+
+    <!-- logo หลวงปู่ฟั่น -->
     <ImageView
 
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_x="110dp"
-        android:layout_y="-200dp"
-        android:src="@drawable/banner1"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_x="15dp"
+        android:layout_y="60dp"
+        android:src="@drawable/buhdafan1"
         />
 
 
-    <!-- logo พระเครื่อง -->
-    <ImageView
-
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:layout_x="90dp"
-        android:layout_y="200dp"
-        android:src="@drawable/pra_logo2"
-        />
-
-
-    <!--  ปุ่มหน้าถัดไป -->
+    <!--  ปุ่มจุดๆ หน้าถัดไป -->
     <ImageView
 
         android:layout_width="120dp"
         android:layout_height="match_parent"
-        android:layout_x="160dp"
-        android:layout_y="280dp"
+        android:layout_x="150dp"
+        android:layout_y="270dp"
         android:src="@drawable/group_button"
         />
 
@@ -49,8 +41,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="ยินดีต้อนรับสู่ร้าน "
-        android:textSize="40dp"
+        android:text="เหรียญพระอาจารย์ฝั้น รุ่นที่ 9 "
+        android:textSize="35dp"
         android:layout_x="40dp"
         android:layout_y="450dp"
         android:textColor="#ffffff"
@@ -59,50 +51,27 @@
         />
 
 
+
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="ณ สยาม"
-        android:textSize="40dp"
-        android:layout_x="260dp"
-        android:layout_y="450dp"
+        android:text="เหรียญพระอาจารย์ฝั้น รุ่นที่ 9 "
+        android:textSize="30dp"
+        android:layout_x="50dp"
+        android:layout_y="500dp"
         android:textColor="#FFFF00"
         android:fontFamily="@font/fc_lamoon_bold"
 
         />
 
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="หากคุณกำลังมองหาของเก่าสะสมต้องที่นี่"
+        android:text="เป็นรุ่นที่หายากมาก พร้อมตัวตัดที่ชัดเจน "
         android:textSize="30dp"
         android:layout_x="25dp"
-        android:layout_y="490dp"
-        android:textColor="#ffffff"
-        android:fontFamily="@font/fc_lamoon_bold"
-
-        />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="ทางร้านของเราได้ทำการรวบรวม"
-        android:textSize="30dp"
-        android:layout_x="60dp"
-        android:layout_y="520dp"
-        android:textColor="#FFFF00"
-        android:fontFamily="@font/fc_lamoon_bold"
-
-        />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="พระเครื่องและเครื่องประดับต่างๆ พร้อมให้บริการท่านแล้ว"
-        android:textSize="30dp"
-        android:layout_x="20dp"
-        android:layout_y="550dp"
+        android:layout_y="530dp"
         android:textColor="#FFFF00"
         android:fontFamily="@font/fc_lamoon_bold"
 
@@ -122,6 +91,7 @@
         android:fontFamily="@font/fc_lamoon_bold"
 
         />
+
 
 <!-- ปุ่มถัดไป -->
     <TextView

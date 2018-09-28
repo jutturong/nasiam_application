@@ -31,10 +31,8 @@
             android:screenOrientation="portrait"
 
             android:parentActivityName=".MainActivity"
+
             android:icon="@drawable/pra"
-
-
-
 
             android:theme="@android:style/Theme.Black.NoTitleBar"
 
@@ -51,7 +49,22 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".MainActivity"></activity>
+
+
+
+        <activity android:name=".MainActivity" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+
+        <activity android:name=".Welcom1" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+
+        <activity android:name=".Welcom2" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+
+        <activity android:name=".Welcom3" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+
+        <activity android:name=".Welcom4" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+
+        <activity android:name=".Searchlist" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+
+        <activity android:name=".Detaillist" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
 
 
 
