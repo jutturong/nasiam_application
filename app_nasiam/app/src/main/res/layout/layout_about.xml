@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- background -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/backgrond2"
+        />
+
+
+
+
+
+    <!-- logo หลวงปู่ฟั่น -->
+    <!--
+    <ImageView
+
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_x="15dp"
+        android:layout_y="60dp"
+        android:src="@drawable/buhdafan1"
+        />
+    -->
+
+    <!-- พระพุทธรูป -->
+    <ImageView
+
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_x="80dp"
+        android:layout_y="60dp"
+        android:src="@drawable/pra"
+        />
+    <!-- พระพุทธรูป -->
+
+
+    <!--  ปุ่มจุดๆ หน้าถัดไป -->
+    <!--
+    <ImageView
+
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:layout_x="150dp"
+        android:layout_y="270dp"
+        android:src="@drawable/group_button"
+        />
+    -->
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="เกี่ยวกับร้าน ณสยาม"
+        android:textSize="50dp"
+        android:layout_x="40dp"
+        android:layout_y="320dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/fc_lamoon_bold"
+
+        />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="37/306 ถ.ศรีจันทร์ อ.เมือง"
+        android:textSize="30dp"
+        android:layout_x="30dp"
+        android:layout_y="365dp"
+        android:textColor="#FFFF00"
+        android:fontFamily="@font/fc_lamoon_bold"
+
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="-เมืองขอนแก่น, จังหวัดขอนแก่น"
+        android:textSize="30dp"
+        android:layout_x="30dp"
+        android:layout_y="395dp"
+        android:textColor="#FFFF00"
+        android:fontFamily="@font/fc_lamoon_bold"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="รหัสไปรษณีย์ 40000"
+        android:textSize="30dp"
+        android:layout_x="30dp"
+        android:layout_y="425dp"
+        android:textColor="#FFFF00"
+        android:fontFamily="@font/fc_lamoon_bold"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="เบอร์โทรศัพท์ 0887055705,"
+        android:textSize="30dp"
+        android:layout_x="30dp"
+        android:layout_y="455dp"
+        android:textColor="#FFFF00"
+        android:fontFamily="@font/fc_lamoon_bold"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="0872338848"
+        android:textSize="30dp"
+        android:layout_x="30dp"
+        android:layout_y="485dp"
+        android:textColor="#FFFF00"
+        android:fontFamily="@font/fc_lamoon_bold"
+
+        />
+
+
+    <!--
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="เป็นรุ่นที่หายากมาก พร้อมตัวตัดที่ชัดเจน "
+        android:textSize="30dp"
+        android:layout_x="25dp"
+        android:layout_y="530dp"
+        android:textColor="#FFFF00"
+        android:fontFamily="@font/fc_lamoon_bold"
+
+        />
+    -->
+
+
+    <ImageView
+
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_x="30dp"
+        android:layout_y="520dp"
+        android:src="@drawable/facebook"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="m.me/nasiam "
+        android:textSize="30dp"
+        android:layout_x="90dp"
+        android:layout_y="520dp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/fc_lamoon_bold"
+
+        />
+
+
+    <ImageView
+
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_x="30dp"
+        android:layout_y="560dp"
+        android:src="@drawable/line"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="nui667 "
+        android:textSize="30dp"
+        android:layout_x="90dp"
+        android:layout_y="560dp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/fc_lamoon_bold"
+
+        />
+
+
+
+    <ImageView
+
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_x="15dp"
+        android:layout_y="590dp"
+        android:src="@drawable/gmail3"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="engineer_gian@hotmail.com "
+        android:textSize="30dp"
+        android:layout_x="90dp"
+        android:layout_y="600dp"
+        android:textColor="#FFFFFF"
+
+        android:fontFamily="@font/fc_lamoon_bold"
+
+        />
+
+
+
+
+    <!-- ปุ่มย้อนกลับ -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/txtback"
+        android:text="หน้าหลัก"
+        android:textSize="40dp"
+        android:layout_x="30dp"
+        android:layout_y="635dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/fc_lamoon_bold"
+
+        />
+
+
+<!-- ปุ่มถัดไป -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/txtforword"
+        android:text="รายการพระ"
+        android:textSize="40dp"
+        android:layout_x="240dp"
+        android:layout_y="635dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/fc_lamoon_bold"
+
+        />
+
+
+
+
+</AbsoluteLayout>

@@ -65,7 +65,7 @@ android:id="@+id/imgsearch"
 
     <!-- เกี่ยวกับเรา -->
     <ImageView
-
+        android:id="@+id/imgabout"
         android:layout_width="match_parent"
         android:layout_height="35dp"
         android:layout_x="100dp"

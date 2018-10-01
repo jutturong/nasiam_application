@@ -75,6 +75,8 @@ public class SplashScreen extends Activity {
 
     ImageView imgsearch; //รายการค้นหาพระเครื่อง
 
+    ImageView imgabout;  //เกี่ยวกับเรา
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -173,6 +175,15 @@ setContentView(R.layout.layoutmainsystem);
             }
         });
 
+        imgabout=(ImageView)findViewById(R.id.imgabout);
+        imgabout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(SplashScreen.this, About.class);
+                startActivity(i);
+                finish();
+            }
+        });
 
     }
 
