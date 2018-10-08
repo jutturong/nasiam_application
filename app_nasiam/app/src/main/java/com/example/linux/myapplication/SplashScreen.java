@@ -77,6 +77,8 @@ public class SplashScreen extends Activity {
 
     ImageView imgabout;  //เกี่ยวกับเรา
 
+    ImageView imgcontact; //ติดต่อเรา
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -136,7 +138,6 @@ setContentView(R.layout.layoutmainsystem);
 
 
         imgwelcome=(ImageView)findViewById(R.id.imgwelcome);//หน้าต้อนรับ
-       /*
         imgwelcome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -147,15 +148,15 @@ setContentView(R.layout.layoutmainsystem);
 
             }
         });
-       */
 
 
+        // รายพระเครื่อง
         imglistprice=(ImageView)findViewById(R.id.imglistprice);//รายการพระเครื่อง
 
         imglistprice.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(SplashScreen.this, Welcom1.class);
+                Intent i = new Intent(SplashScreen.this, Welcom2.class);
                 startActivity(i);
                 finish();
 
@@ -175,8 +176,19 @@ setContentView(R.layout.layoutmainsystem);
             }
         });
 
+        //เกี่ยวกับเรา
         imgabout=(ImageView)findViewById(R.id.imgabout);
         imgabout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(SplashScreen.this, About.class);
+                startActivity(i);
+                finish();
+            }
+        });
+
+        imgcontact=(ImageView)findViewById(R.id.imgcontact);
+        imgcontact.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(SplashScreen.this, About.class);

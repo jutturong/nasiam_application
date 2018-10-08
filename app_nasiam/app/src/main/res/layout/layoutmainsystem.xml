@@ -55,7 +55,7 @@ android:id="@+id/imgsearch"
 
     <!-- ติดต่อเรา -->
     <ImageView
-
+     android:id="@+id/imgcontact"
         android:layout_width="match_parent"
         android:layout_height="35dp"
         android:layout_x="80dp"

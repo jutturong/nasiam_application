@@ -45,7 +45,7 @@ public class Welcom2 extends Activity {
         txtback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Welcom2.this, Welcom1.class);
+                Intent i = new Intent(Welcom2.this, SplashScreen.class);
                 startActivity(i);
                 finish();
             }
